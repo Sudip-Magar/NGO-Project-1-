@@ -1,0 +1,190 @@
+.mission {
+    background-image: linear-gradient(to right, #000000a9, #000000a9), url(../img/banner2.jpg);
+    min-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 45% bottom 70%;
+    padding: 6% 0;
+}
+
+.mission h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+
+}
+
+.mission2 h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.mission2 h2 {
+    font-size: 140px;
+    text-align: center;
+}
+
+.aap {
+    width: 100%;
+    height: 1px;
+    background: rgb(197, 194, 194);
+    position: relative;
+}
+
+.app {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgb(197, 194, 194);
+    border-radius: 50%;
+
+}
+
+.app1 {
+    left: 10%;
+    top: -9px;
+}
+
+.app2 {
+    left: 30%;
+    top: -9px;
+    background: rgb(34, 182, 175);
+}
+
+.app3 {
+    left: 50%;
+    top: -9px;
+}
+
+.app4 {
+    left: 70%;
+    top: -9px;
+}
+
+.app5 {
+    left: 90%;
+    top: -9px;
+}
+
+.aap p {
+    position: absolute;
+    top: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-block;
+    letter-spacing: 3px;
+}
+
+.ap1 {
+    
+    right: -50px;
+}
+
+.ap2 {
+    right: -40px;
+    color: rgb(34, 182, 175);
+}
+.ap3{
+    right: -30px;
+}
+.ap4{
+    right: -50px;
+}
+.ap5{
+    right: -12px;
+}
+.mission20 h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.range{
+    width: 100%;
+    height: 30px;
+    background: rgb(197, 194, 194);
+    position: relative;
+    z-index: -1;
+}
+.body1{
+    width: 70% !important;
+}
+.range-body{
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    background: #22B6AF;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+.ways{
+    background-image: linear-gradient(to right, #000000d2, #000000a9), url(../img/banner4.webp);
+    min-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 45% bottom 70%;
+    padding: 6% 0;
+    color: white;
+}
+.ways h3{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.mbox{
+    width: 100%;
+    background: #22B6AF;
+    height: 55vh;
+    overflow: hidden;
+}
+
+.mbox .num{
+    font-size: 100px;
+    font-weight: 700;padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.1);
+}
+.mbox h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    
+}
+.para p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 0px;
+}
+.uniq img{
+    width: 100%;
+    height: 55vh;
+}
+
+
+
+
+@media (max-width:992px) {
+    .mission h1 {
+        font-size: 40px;
+    
+    }
+    .aap {
+        display: none;
+    }
+    .uniq img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width:650px) {
+    .mission2 h2 {
+        font-size: 100px;
+        text-align: center;
+    }
+}

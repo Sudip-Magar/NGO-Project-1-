@@ -1,0 +1,130 @@
+.Service {
+    background-image: linear-gradient(to right, #000000a9, #000000a9), url(../img/banner6.jpeg);
+    min-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 45% bottom 70%;
+    padding: 6% 0;
+}
+
+.Service h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(147, 144, 144);
+    text-align: center;
+
+}
+.sec a{
+    background: #F24A29;
+}
+.sl{
+    background: #F24A29 !important;
+    width: 75% !important;
+}
+.scont2{
+    background: #F24A29;
+}
+
+.sec1 a{
+    background: #22B6AF;
+}
+.sl1{
+    background: #22B6AF !important;
+}
+.scont1{
+    background: #22B6AF;
+    left: 100%;
+}
+.sdet a{
+    background: #F24A29;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.sdet1 a{
+    background: #22B6AF;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.sbanner {
+    background-image: linear-gradient(to right, #000000a9, #aaaaaaa9), url(../img/sbanner.jpg);
+    min-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 45% bottom 40%;
+    padding: 6% 0;
+}
+.sbanner h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.range{
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}  
+.range1{
+    position: relative;
+    width: 100%;
+    background: rgb(230, 228, 228);
+    height: 28px;
+
+}
+.splan h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.range1-body{
+    position: absolute;
+    
+    height: 100%;
+    background: #2272B6;
+}
+.rb1{
+    width: 65%;
+}
+
+.sec{
+    background: #F2A922 !important;
+    width: 44%;
+}
+.third{
+    background: #F24A29 !important;
+    width: 80%;
+}
+.servy {
+    background-image: linear-gradient(to right, #22b6afca, #22b6afca), url(../img/servry.jpg);
+    min-width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6% 0;
+}
+.servy img{
+    width: 80px;
+    border-radius: 50px;
+}
+.servy .let{
+    letter-spacing: 4px;
+}
+
+
+
+
+@media (max-width:992px) {
+    .mission h1 {
+        font-size: 40px;
+    
+    } 
+    .sbanner h3{
+        font-size: 30px;
+        font-weight: 700;
+    }  
+}

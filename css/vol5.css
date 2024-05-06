@@ -1,0 +1,175 @@
+.vol {
+    background-image: linear-gradient(to right, #2c2a2aa1,  #2c2a2aa1), url(../img/med.jpg);
+    min-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 45% bottom 70%;
+    padding: 6% 0;
+}
+
+.vol h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+
+}
+.mbg{
+    background: #282828;
+}
+.money{
+    width: 100%;
+    height: 60px;
+}
+.blue{
+    background: #F2A922;
+    height: 100%;
+    width: 50%;
+    padding: 19px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.blue span{
+    font-weight: 700;
+}
+.brown{
+    background: #3A3736;
+    height: 100%;
+    width: 50%;
+    padding: 19px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.brown span{
+    font-weight: 700;
+}
+.mbg .py{
+    padding: 24px 0;
+}
+.mbg a{
+    text-decoration: none;
+    background: white;
+    color: #3A3736;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10PX 20PX;
+    letter-spacing: 1px;
+}
+.lwid{
+    width: 65%;
+}
+.rwid img{
+    width: 25px;
+}    
+.rwid{
+    width: 35%;
+    
+
+}
+.charl img{
+    width: 500px;
+
+}
+.charr{
+    background: #F2A922;
+    padding: 0 14px;
+}
+.charr h3{
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-size: 33px;
+    font-weight: 400;
+}
+.charr p{
+    font-size: 15px;
+    font-weight: 700;
+}
+.details h4{
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+.comh{
+    border-right: none !important;
+}
+.caus img{
+    width: 55px;
+}
+.remove{
+    display: none;    
+}
+.col{
+    color: #F2A922;
+}
+
+.des, .don, .com{
+    cursor: pointer;
+}
+.com-det img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.com-det strong{
+    margin-right: 5px;
+}
+.donate-form .word{
+    font-size: 20px;
+    font-weight: 700;
+}
+.donate-form .num{
+    font-size: 15px;
+    font-weight: 700;
+    background: #F2A922;
+    color: white;
+    padding: 5px 13px;
+}
+.input, textarea{
+    padding: 8px;
+    outline: none;
+    border: rgb(188, 188, 188) 1px solid;
+}
+button{
+    outline: none;
+    background: #F2A922;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    padding: 8px 25px;
+}
+.buttonswap{
+    background: #282828;
+}
+.buttonswap img{
+    width: 20px;
+}
+@media (max-width:992px) {
+    .vol h1 {
+        font-size: 40px;
+    
+    } 
+    .charr{
+        padding: 0 14px;
+    }
+    .charr h3{
+        letter-spacing: 0px;
+        line-height: 25px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+@media (max-width:768px) {
+    .lwid{
+        width: 100%;
+    }
+    .rwid{
+        width: 100%;
+    }
+    .charr{
+        padding:25px;
+    }
+    .details h4{
+        padding-right: 5px;
+    }
+}

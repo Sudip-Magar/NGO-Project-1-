@@ -1,0 +1,235 @@
+.give {
+    background-image: linear-gradient(to right, #000000a9, #000000a9), url(../img/givebanner.jpg);
+    min-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right 45% bottom 70%;
+    padding: 6% 0;
+}
+
+.give .space {
+    letter-spacing: 8px;
+}
+
+.gline {
+    width: 100%;
+    height: 3px;
+    background: rgb(209, 209, 209);
+
+}
+
+.gline-body {
+    width: 39%;
+    height: 100%;
+    background: #F2A922;
+}
+
+.g-bod {
+    margin: 18% 10%;
+}
+
+.g-bod img {
+    width: 350px;
+}
+
+.gbox {
+    cursor: pointer;
+}
+
+.f1 {
+    height: 5px !important;
+}
+
+.readme {
+    background: rgb(204, 204, 204);
+}
+
+.gdonate {
+    position: fixed;
+    width: 500px;
+    height: 95vh;
+    padding: 10px;
+    background-color: white;
+    top: 110px;
+    left: 50%;
+    margin-top: -100px;
+    /* Negative half of height. */
+    margin-left: -250px;
+    /* Negative half of width. */
+    z-index: 1000;
+    overflow: auto;
+}
+
+.gleft {
+    float: left;
+}
+
+    .ga {
+        width: 40px;
+        background: #F2A922;
+        padding: 5px 0;
+    }
+
+.supp input {
+    width: 100%;
+    outline: none;
+}
+
+.gb {
+    width: 110px;
+    border: 1px solid gray;
+    padding: 4px 0;
+}
+
+.gdonate h3 {
+    font-size: 30px;
+}
+
+.samount a {
+    background: #F2A922;
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    margin: 3px 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.ga2 {
+    width: 117px;
+    background: rgb(39, 39, 39);
+    padding: 5px 0;
+}
+
+.gb2 {
+    width: 75px;
+    border: 1px solid gray;
+    padding: 4px 0;
+}
+
+.btn1 {
+    outline: none;
+    background: #2272B6;
+    color: white;
+    border: 0;
+    padding: 5px 15px;
+}
+
+.gcross {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.cross7 {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.samounttop a {
+    background: #F2A922;
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    margin: 3px 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.show {
+    display: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.wida{
+    width: 65%;
+}
+.widb{
+    width: 35%;
+}
+.contain h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.gbox h3{
+    font-size: 28px !important;
+    font-weight: 500 !important;
+}
+.gline-body2 {
+    width: 49%;
+    height: 100%;
+    background: #22B6AF;
+}
+.gline-body3 {
+    width: 10%;
+    height: 100%;
+    background: #F2A922;
+}
+.gline-body4 {
+    width: 25%;
+    height: 100%;
+    background: #2272B6;
+}
+.gline-body5 {
+    width: 50%;
+    height: 100%;
+    background: #2272B6;
+}
+.gline-body6 {
+    width: 85%;
+    height: 100%;
+    background: #22B6AF;
+}
+
+
+
+@media (max-width:992px) {
+    .mission h1 {
+        font-size: 40px;
+
+    }
+
+    .sbanner h3 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .g-bod {
+        margin: 10px 0%;
+    }
+    .g-bod img {
+        width: 250px;
+    }
+    .contain h3{
+        font-size: 30px;
+    }
+
+}
+@media (max-width:500px){
+    .g-bod img {
+        width: 100%;
+    }
+    .gdonate {
+        position: fixed;
+        width: 100%;
+        height: 95vh;
+        padding: 10px;
+        background-color: white;
+        top: 110px;
+        left: 50%;
+        margin-top: -100px;
+        /* Negative half of height. */
+        margin-left: -50%;
+        /* Negative half of width. */
+        z-index: 1000;
+        overflow: auto;
+    }
+}

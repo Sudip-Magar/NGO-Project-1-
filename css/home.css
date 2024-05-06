@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+.soc {
+    background-image: linear-gradient(rgba(255, 153, 0, 0.920), rgba(255, 153, 0, 0.84)), url(../img/all-about-rice.jpg);
+}
+
+.head {
+    font-size: 16px;
+    color: white;
+}
+
+.head li a {
+    text-decoration: none;
+    color: white;
+}
+
+header img {
+    width: 200px;
+}
+
+header .nav {
+    justify-content: center;
+    z-index: 1000;
+}
+
+header .nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header .ph img {
+    width: 30px;
+}
+
+header .ph h4 {
+    font-size: 20px;
+    text-align: start;
+}
+
+header .ph p {
+    font-size: 14px;
+    text-align: start;
+}
+
+header .ph button {
+    background: #22B6AF;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    outline: none;
+}
+
+.nav li:hover a {
+    color: #F09E07;
+}
+
+.banner {
+    background-image: linear-gradient(to right,#fccb464a, #fccb461f), url(../img/homebanner.jpg);
+    min-width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 35% bottom 45%;
+    position: relative;
+}
+.banner h1{
+    width: 80%;
+    display: flex;
+    height: 100%;
+    padding: 5%;
+    align-items: center;
+    font-size: 4vw;
+    color: white;
+    font-weight: 800;
+}
+.banner button{
+    position: absolute;
+    border: none;
+    top: 65%;
+    left: 6%;
+    color: white;
+    background: #F09E07;
+    padding: 10px 30px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.box img{
+    width: 70px;
+}
+.box .content{
+    line-height: 20px;
+    padding-top: 15px;
+}
+.box .content h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.donate h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px; 
+}
+
+.donate-img {
+    position: relative;
+}
+
+.donate-now{
+    position: absolute;
+    right: 25px;
+    bottom: 12px;
+}
+.donate-now a{
+    background: #2272B6;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background: rgb(194, 194, 194);
+}
+.line2{
+    background: #2272B6 !important;
+    width: 45%;
+    height: 2px;
+    position: relative;
+}
+.line-cont{
+    position: absolute;
+    background: #2272B6;
+    color: white;
+    font-size: 11px;
+    padding: 3px;
+    bottom: -10px;
+    left: 100%;
+}
+.det a{
+    background: #2272B6;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.sec a{     
+    background: #F2A922;
+}
+.l2-2{
+    background: #F2A922 !important;
+    width: 45% !important;
+}
+.cont2{
+    background: #F2A922;
+    bottom: -10px !important;
+    left: 100% !important;
+}
+.det2 a{
+    background: #F2A922;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.img{
+    background-image: linear-gradient(to right,#00a39ea5, #00a39ea5), url(https://images.pexels.com/photos/6348129/pexels-photo-6348129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85.5vh;
+    padding: 40% 0;
+    color: white;
+    font-weight: 700;
+}
+.img p{
+    font-size: 23px;
+    line-height: 3px;
+}
+.img h3{
+    font-size: 60px;
+}
+.img button{
+    background: white;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 70px;
+    margin-top: 65px;
+    transition: 0.2s;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.img button:hover{
+    background: #F09E07;
+    color: white;
+    transition: 0.2s;
+}
+.banner2 {
+    background-image: linear-gradient(to right,#fccb464a, #fccb461f), url(../img/banner-2.jpg);
+    min-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 35% bottom 45%;
+    padding: 6% 0;
+    margin: 50px 0 0 0;
+}
+.banner2 .donate2{
+    border: 1px solid white;
+    width: 75%;
+}
+.banner2 form{
+    border: 1px solid black;
+    width: 100%;
+    text-align: left !important;
+    padding: 0;
+}
+.left{
+    float: left;
+}
+.a{
+    width: 20%;
+}
+.b{
+    width: 80%;
+}
+.b input{
+    width: 80%;
+    outline: none;
+    background: none;
+}
+.clc{
+    clear: both;
+}
+.banner2 .amount a{
+    text-decoration: none;
+    background: #F2A922;
+    width: 24%;
+    padding: 7px 0;
+    margin: 10px 0;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+.amt-donate{
+    background: #22B6AF;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px 0;
+    margin: 15% 0px 0px 0px;
+}
+.amount{
+    cursor: pointer;
+}
+h2{
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 120px;
+}
+.event {
+    background-image: linear-gradient(to bottom,#ffffff, #ffffffdb), url(../img/banner3);
+    min-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 35% bottom 45%;
+    margin: 50px 0 10px 0 ;
+}
+
+th img{
+    width: 30px;
+}
+
+td img{
+    width: 100px;
+}
+.t-img{
+    background-image: linear-gradient(to bottom,#0061a1bd, #0061a1d7), url(../img/t-img.jpeg);
+}
+table{
+    width: 100%;
+    background: white;
+    
+
+}
+
+table, th{
+    padding: 8px;
+}
+td{
+    padding: 25px;
+}
+td a{
+    
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+td .green{
+    background: #22B6AF;
+}
+td .blue{
+    background: #2272B6;
+}
+td .yellow{
+    background:#F2A922;
+}
+.tdrel{
+    position: relative;
+    width: 100%;
+    
+}
+.tdabs{
+    position: absolute;
+    bottom: -12px;
+    left: 15px;
+    background: #282828;
+    color: white;
+    font-size: 11px;
+    padding:4px 12px;
+}
+footer {
+    background-image: linear-gradient(to bottom,#363636ed, #363636ed), url(https://cdn.downtoearth.org.in/library/large/2020-01-21/0.83718500_1579596416_poverty1.jpg);
+    min-width: 100%;
+    height:auto ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 35% bottom 45%;
+    padding: 4% 4%;
+}
+footer h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+footer button{
+    background: #22B6AF;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+}
+.cont img{
+    width: 20%;
+    margin: 5px;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+footer a:hover{
+    color: #F09E07;
+}
+
+
+.gdonate {
+    position: fixed;
+    width: 500px;
+    height: 95vh;
+    padding: 10px;
+    background-color: white;
+    top: 110px;
+    left: 50%;
+    margin-top: -100px;
+    /* Negative half of height. */
+    margin-left: -250px;
+    /* Negative half of width. */
+    z-index: 1000;
+    overflow: auto;
+}
+.cross7, .cross2 {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.samounttop a {
+    background: #F2A922;
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    margin: 3px 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.show {
+    display: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.supp input {
+    width: 100%;
+    outline: none;
+}
+.ga {
+    width: 40px;
+    background: #F2A922;
+    padding: 5px 0;
+}
+.gb {
+    width: 110px;
+    border: 1px solid gray;
+    padding: 4px 0;
+}
+.readme {
+    background: rgb(204, 204, 204);
+}
+.btn1 {
+    outline: none;
+    background: #2272B6;
+    color: white;
+    border: 0;
+    padding: 5px 15px;
+}
+.gleft {
+    float: left;
+}
+.clc{
+    clear: both;
+}
+.volunh{
+    color: #F09E07;
+}
+
+
+@media (max-width:1200px){
+    .banner h1{
+        width: 100%;
+        display: flex;
+        height: 100%;
+        padding: 5%;
+        align-items: center;
+        font-size: 5vw;
+    }
+    .menu {
+
+        font-size: 25px;
+        font-weight: 700;
+        color: #22B6AF;
+        margin-bottom: 25px;
+    }
+
+    .nav ul a {
+        color: white;
+        line-height: 50px;
+        margin-top: 10px;
+    }
+
+    .nav ul {
+        position: fixed;
+        top: 0px;
+        right: -900px;
+        transform: 0.5s;
+        background: black;
+        width: 300px;
+        height: 80vh;
+    }
+    .banner h1{
+        font-size: 5vw;
+    }
+
+    .cross {
+        position: relative;
+        top: 15px;
+        left: 40%;
+        font-size: 30px;
+        color: white;
+    }
+    td{
+        display: block;
+        
+    }
+    td p{
+        width: 100%;
+    }
+    .ss{
+        display: none;
+    }
+    .tdrel{
+        position: relative;
+        width: 25%;
+        
+    }
+    br{
+        display: none;
+    }
+    table, th{
+        padding: 8px;
+
+    }
+    td{
+        padding: 15px;
+    }
+
+}
+
+@media(max-width:992px) {
+    
+    .banner h1{
+        width: 100%;
+        display: flex;
+        height: 100%;
+        padding: 5%;
+        align-items: center;
+        font-size: 7vw;
+    }
+    .banner button{
+        top: 60%;
+        left: 6%;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+    }
+    .banner2 .donate2{
+        border: 1px solid white;
+        width: 100%;
+    }
+    .donate h3{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 45px; 
+    }
+
+    td{
+        display: block;
+    }
+    .ss{
+        display: none;
+    }
+    
+
+}   
+@media (max-width:500px){
+    .banner button{
+        top: 58%;
+        left: 6%;
+    }
+    .gdonate {
+        position: fixed;
+        width: 100%;
+        height: 95vh;
+        padding: 10px;
+        background-color: white;
+        top: 110px;
+        left: 50%;
+        margin-top: -100px;
+        /* Negative half of height. */
+        margin-left: -50%;
+        /* Negative half of width. */
+        z-index: 1000;
+        overflow: auto;
+    }
+}

@@ -1,0 +1,70 @@
+.contact {
+    background-image: linear-gradient(to right, #000000a9, #000000a9), url(../img/banner5.jpeg);
+    min-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 45% bottom 70%;
+    padding: 6% 0;
+}
+
+.contact h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+
+}
+.box{
+    position: relative;
+    z-index: -1;
+
+}
+.box img{
+    width: 110px;
+}
+.box h3{
+    font-size: 23px;
+}
+.any h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.any a{
+    background: #22B6AF;
+    padding: 8px 25px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.input, .textarea, .requsest{
+    width: 100%;
+    margin: 8px;
+    padding: 5px;
+    border: 1px solid gray;
+    outline: none;
+}
+textarea{
+    height: 160px;
+}
+.requsest{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: #F2A922;
+    border: 1px solid #F2A922 !important;
+    color: white;
+
+}
+
+
+
+
+
+
+@media (max-width:992px) {
+    .contact h1 {
+        font-size: 40px;
+    
+    }
+    
+}

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/urgent6.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container-fliud soc">
+        <div class="row mx-5 py-2 head">
+            <div class="col-lg-6 ">
+                <ul class="d-md-flex text-center list-unstyled gap-3 p-0 m-0  ">
+                    <li><i class="fa-regular fa-envelope"></i> spsuudeep834@gmail.com</li>
+                    <li><i class="fa-regular fa-clock"></i> Mon-Sat: 08.00am -05.00am</li>
+                </ul>
+            </div>
+            <div class="col-lg-6  d-none d-md-block">
+                <ul class="d-flex list-unstyled gap-2 justify-content-end p-0 m-0">
+                    <li>Contact us on Social Media</li>
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <header class=" text-center">
+        <div class="row mx-5 py-3 text-center">
+            <div class="col-md-3 text-lg-start">
+                <img src="img/ngo logo.png" alt="">
+            </div>
+            <div class="col-md-6 nav ">
+                <div class="d-block d-xl-none text-center fs-1  bar"><i class="fa-solid fa-bars "></i></div>
+                <ul class="menus d-xl-flex list-unstyled gap-5 m-0 p-0 align-items-center text-center" class="">
+                    <div class="cross   d-xl-none"><i class="fa-solid fa-xmark"></i></div>
+                    <li class="d-lg-none menu">Menu</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About Us.html">About Us</a></li>
+                    <li><a href="Mission.html">Mission</a></li>
+                    <li><a href="Service.html">Services</a></li>
+                    <li><a href="Give.html">Give</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div
+                class="col-md-3 d-flex align-items-center justify-content-lg-end justify-content-center  ph text-end gap-4 ">
+                <div class="cont d-lg-flex align-items-center gap-3  justify-content-start d-none d-lg-block">
+                    <div class="p-0 m-0 d-none d-xxl-block"><img src="img/icn-phone-dark.png" alt=""></div>
+                    <div class="d-none d-xxl-block">
+                        <h4 class="p-0 m-0">Any Question?</h4>
+                        <p class="p-0 m-0">Phone: 9825567192</p>
+                    </div>
+                </div>
+                <button class="bo7">DONATE</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="gdonate d7 show  px-4 py-5 shadow">
+        <div class="cross7"><i class="fa-solid fa-xmark"></i></div>
+        <form action="">
+            <div class="supp my-3">
+                <div class="gleft ga  text-light px-2  fs-5 m-0 ">Rs.</div>
+                <div class="gleft gb  fs-5 px-2 m-0 border">
+                    <input class="border-0 changed2" type="number" name="" id="" value="50">
+                </div>
+                <div class="clc"></div>
+            </div>
+            <div class="samounttop py-2">
+                <a onclick="samt1()" class="samttop1">Rs. 100</a>
+                <a onclick="samt2()" class="samttop2">Rs. 500</a>
+                <a onclick="samt3()" class="samttop3">Rs. 1000</a>
+                <a onclick="samt4()" class="samttop4">Custom</a>
+            </div>
+            <div class="my-5 radi">
+                <h4 class="">Select Payment Method</h4>
+                <div class="d-flex gap-4">
+                    <div>
+                        <input type="radio" class="offtop" name="donation" value="OffineDonation" checked> Offline
+                        Donation
+                    </div>
+                    <div>
+                        <input type="radio" class="ontop" name="donation" value="CreditCard"> Visa Card
+                    </div>
+                </div>
+            </div>
+            <div class="pinfo ">
+                <h4>Personal Info</h4>
+                <div class="offltop ">
+                    <div class="d-flex gap-2">
+                        <div class="w-50">
+                            <label for="fname">First Name <span class="text-danger">⋆</span></label> <br>
+                            <input class="w-100" type="text" name="Fname" id="fname" placeholder="First Name" required>
+                        </div>
+                        <div class="w-50">
+                            <label for="lname">Last Name</label> <br>
+                            <input class="w-100" type="text" name="Lname" id="lname" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="w-100 my-3">
+                        <label for="email">Email Address <span class="text-danger">⋆</span></label> <br>
+                        <input class="w-100" type="email" name="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="readme py-3 px-2">
+                        <p>In order to make an offline donation we ask that you please follow these instructions:
+                        </p>
+                        <ol>
+                            <li>Make a check payable to "Charity DEMO"</li>
+                            <li> On the memo line of the check, please indicate that the donation is for "Charity
+                                DEMO"</li>
+                            <li>Please mail your check to:
+                                <ul>
+                                    <li>Helping Hand Foundation</li>
+                                    <li>111 Not A Real St.</li>
+                                    <li>Anytown, CA 12345</li>
+                                </ul>
+                            </li>
+                        </ol>
+                        <p>All contributions will be gratefully acknowledged and are tax deductible.</p>
+                    </div>
+                    <div class="py-2">
+                        <button class="fs-6 fw-medium my-4 mb-5 btn1">Donate Now</button>
+                    </div>
+                </div>
+
+                <div class="credittop show my-2">
+                    <div class="d-flex gap-2">
+                        <div class="w-50">
+                            <label for="fname">First Name <span class="text-danger">⋆</span></label> <br>
+                            <input class="w-100" type="text" name="Fname" id="fname" placeholder="First Name" required>
+                        </div>
+                        <div class="w-50">
+                            <label for="lname">Last Name <span class="text-danger">⋆</span></label></label> <br>
+                            <input class="w-100" type="text" name="Lname" id="lname" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="w-100 my-3">
+                        <label for="email">Email Address <span class="text-danger">⋆</span></label> <br>
+                        <input class="w-100" type="email" name="email" id="email" placeholder="Email Address" required>
+                    </div>
+
+                    <div>
+                        <h4>Visa Card Info</h4>
+                        <p><i class="fa-solid fa-lock"></i> This is a secure SSL encrypted payment.</p>
+                        <form action="">
+                            <div class="d-flex gap-3 my-2">
+                                <div class="wida ">
+                                    <label for="car">Card Number <span class="text-danger">⋆</span></label> <br>
+                                    <input class="w-100" id="car" type="number" name="cardNum" placeholder="Card Number"
+                                        required maxlength="10">
+                                </div>
+                                <div class="wwidb">
+                                    <label for="cvc">CVC <span class="text-danger">⋆</span></label> <br>
+                                    <input class="w-100" id="cvc" type="number" name="cvc" placeholder="CVC" required>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3 my-2">
+                                <div class="wida ">
+                                    <label for="hol">Cardholder Name <span class="text-danger">⋆</span></label> <br>
+                                    <input class="w-100" id="hol" type="name" name="cardNum"
+                                        placeholder="Cardholder Name" required maxlength="10">
+                                </div>
+                                <div class="wwidb">
+                                    <label for="exp">Expiration <span class="text-danger">⋆</span></label> <br>
+                                    <input class="w-100" id="exp" type="number" name="cvc" placeholder="MM/YY" required>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="py-2">
+                        <button class="fs-6 fw-medium my-4 mb-5 btn1">Donate Now</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <section class="urg">
+        <div class="container about-banner ">
+            <h1 class=" py-4">Urgent Help</h1>
+        </div>
+    </section>
+
+    <section class="mbg">
+        <div class="container">
+            <div class="row py-4 text-light">
+                <div class=" col-lg-12 col-xxl-6 my-2">
+                    <div class="money d-flex  text-center justify-content-between align-items-center">
+                        <div class="blue  m-0">Goal: <span>Rs.80,000</span></div>
+                        <span class="brown">Achieved: <span>Rs.50,000</span></span>
+                    </div>
+                </div>
+                <div class=" col-md-4 col-xxl-2 my-xxl-0 my-md-3 mt-2">
+                    <div class="text-center">
+                        <h3>55%</h3>
+                        <p>OF OUR GOAL</p>
+                    </div>
+                </div>
+                <div class=" col-md-4 col-xxl-2 my-xxl-0 my-md-3 ">
+                    <div class="text-center">
+                        <h3>4</h3>
+                        <p>DONATION</p>
+                    </div>
+                </div>
+                <div class=" col-md-4 col-xxl-2 my-xxl-0 my-md-3">
+                    <div class="py text-center"> <a class="mt-4" href="#Donate">DONATION NOW</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="d-flex flex-column flex-md-row justify-content-center align-items-stretch my-5">
+            <div class="lwid ">
+                <img class="w-100" src="img/urge.jpg" alt="">
+            </div>
+            <div class="rwid charr d-flex justify-content-center align-items-center ">
+                <div class="text-center text-light">
+                    <img src="img/icon-quote-white.svg" alt="">
+                    <h3 class="my-4"> Charity brings to life again those who are spiritually dead. </h3>
+                    <p class="">Thomas Aquinas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container detail">
+        <div class="d-flex justify-content-start align-items-center gap-2 gap-md-4 details">
+            <div class="des">
+                <h4 class="desh col">Description</h4>
+            </div>
+            <div class="don">
+                <h4 class="donh">Donations </h4>
+            </div>
+            <div class="com">
+                <h4 class="comh">Comments </h4>
+            </div>
+        </div>
+        <p class="py-3 des-det">Join <span class="text-primary">"Helping-Hand Foundation"</span> in our urgent mission to provide critical assistance to communities in
+            crisis. We are seeking dedicated volunteers and supporters to help us tackle pressing issues such as food
+            insecurity, healthcare access, and disaster relief. Your involvement can make an immediate impact and bring
+            hope to those in need. Together, let's act swiftly to create positive change and make a difference. Join us
+            today and be part of our urgent response efforts. Every contribution counts towards building a stronger and
+            more resilient future for all.</p>
+
+        <div class="don-det remove ">
+            <h3 class="py-5">CAUSE DONORS</h3>
+            <div class="row caus my-3">
+                <div class="col-md-6 my-2">
+                    <div class="d-flex justify-content-start gap-2 p-2 align-items-center shadow w-100">
+                        <img src="img/donor1.jpeg" alt="">
+                        <div class="d-flex justify-content-between align-items-center w-100 p-2">
+                            <div><strong>Nick</strong></div>
+                            <div class="text-end">Rs.100</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-2">
+                    <div class="d-flex justify-content-start gap-2 p-2 align-items-center shadow w-100">
+                        <img src="img/donor2.jpeg" alt="">
+                        <div class="d-flex justify-content-between align-items-center w-100 p-2">
+                            <div><strong>Jack</strong></div>
+                            <div class="text-end">Rs.200</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-2">
+                    <div class="d-flex justify-content-start gap-2 p-2 align-items-center shadow w-100">
+                        <img src="img/donor3.jpeg" alt="">
+                        <div class="d-flex justify-content-between align-items-center w-100 p-2">
+                            <div><strong>Jane</strong></div>
+                            <div class="text-end">Rs.50</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-2">
+                    <div class="d-flex justify-content-start gap-2 p-2 align-items-center shadow w-100">
+                        <img src="img/donor4.jpeg" alt="">
+                        <div class="d-flex justify-content-between align-items-center w-100 p-2">
+                            <div><strong>April</strong></div>
+                            <div class="text-end">Rs.500</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="com-det remove">
+            <h3 class="py-4 border-bottom">2 COMMENT</h3>
+            <div class="my-2 border-bottom py-5">
+                <img src="img/donor3.jpeg" alt="">
+                <strong>Jane Mgrayan</strong> <span>Says:</span>
+                <p>September 8, 2020 at 12:35 pm</p>
+                <p>Fusce urna augue, volutpat quis pharetra nec, fringilla a enim. Etiam dapibus accumsan libero
+                    vehicula vestibulum. Nunc justo augue, vehicula vel mauris id, blandit laoreet urna. Integer
+                    placerat euismod lorem vitae viverra. Sed cursus est justo, quis consequat est lacinia id. Praesent
+                    semper pulvinar sollicitudin.</p>
+            </div>
+            <div class="my-2 py-5 border-bottom">
+                <img src="img/donor4.jpeg" alt="">
+                <strong>April Harris</strong> <span>Says:</span>
+                <p>September 8, 2020 at 12:35 pm</p>
+                <p>Fusce urna augue, volutpat quis pharetra nec, fringilla a enim. Etiam dapibus accumsan libero
+                    vehicula vestibulum. Nunc justo augue, vehicula vel mauris id, blandit laoreet urna. Integer
+                    placerat euismod lorem vitae viverra. Sed cursus est justo, quis consequat est lacinia id. Praesent
+                    semper pulvinar sollicitudin.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="Donate" class="container donate-form">
+        <h3 class="my-5">DONATE NOW</h3>
+        <form action="">
+            <div class="d-flex MY-3 gap-3 justify-content-start align-items-center">
+                <p class="num">1</p>
+                <p class="word">INSERT YOUR NUMBER</p> <br>
+            </div>
+
+            <input class="w-100 input" type="text" name="amounnt" id="" placeholder="Enter The Amount">
+
+            <div class="d-flex gap-3 mt-4 justify-content-start align-items-center">
+                <p class="num">2</p>
+                <p class="word">INSERT YOUR INFORMATION</p> <br>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-6 my-2 my-sm-0">
+                    <input class="w-100 input" type="text" name="FName" id="" placeholder="Name">
+                </div>
+                <div class="col-sm-6 my-2 my-sm-0">
+                    <input class="w-100 input" type="text" name="LName" id="" placeholder="Surname">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-6 my-2 my-sm-0">
+                    <input class="w-100 input" type="email" name="email" id="" placeholder="Email">
+                </div>
+                <div class="col-sm-6 my-2 my-sm-0">
+                    <input class="w-100 input" type="text" name="address" id="" placeholder="Address">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-6 my-2 my-sm-0">
+                    <input class="w-100 input" type="text" name="city" id="" placeholder="City">
+                </div>
+                <div class="col-sm-6 my-2 my-sm-0">
+                    <input class="w-100 input" type="text" name="country" id="" placeholder="Country">
+                </div>
+            </div>
+            <div>
+                <textarea class="w-100" name="" id="" rows="6" placeholder="Message"></textarea>
+            </div>
+            <div class="py-3">
+                <button>CHECK OUT</button>
+            </div>
+        </form>
+
+    </section>
+
+    <section class="buttonswap">
+        <div class="container">
+            <div class="row  p-4">
+                <div class="col-4">
+                    <a href="vol5.html"><img src="img/left.svg" alt=""></a>
+                </div>
+                <div class="col text-center">
+                    <a href="Cause.html"><img src="img/menu.svg" alt=""></a>
+                </div>
+                <div class="col-4 text-end">
+                    <a href="MedicalAid1.html"><img src="img/right.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row text-light">
+            <div class="col-lg-3">
+                <h3 class="my-3">ABOUT US</h3>
+                <P class="my-4">We prioritize community empowerment by providing access to education,
+                    healthcare services, and sustainable development programs. </P>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="col-lg-3">
+                <h3 class="my-3">ALL CONTACT</h3>
+                <P><i class="fa-solid fa-location-dot"></i> Teku, Kalimati</P>
+                <P><i class="fa-solid fa-phone"></i> 9823205972</P>
+                <P><i class="fa-solid fa-envelope"></i> spsuudeep834@gmail.com</P>
+                <P><i class="fa-solid fa-clock"></i> 08 am - 06 pm Saturday closed</P>
+            </div>
+            <div class="col-lg-3">
+                <h3 class="my-3">SUBSCRIBE</h3>
+                <P>Join us in our mission to make a lasting difference in the lives of individuals and communities."</P>
+                <input class="w-100 p-2 my-2" type="email" name="email" id="" placeholder="Enter Your Email">
+                <button class="w-50 p-2">SEND</button>
+            </div>
+            <div class="col-lg-3">
+                <h3 class="my-3">GALARY</h3>
+                <div class="cont">
+                    <div class="gallary">
+                        <img src="img/gall1.jpg" alt="">
+                        <img src="img/gall2.jpg" alt="">
+                        <img src="img/gall3.jpg" alt="">
+                        <img src="img/gall4.jpg" alt="">
+                        <img src="img/gall5.jpg" alt="">
+                        <img src="img/gall6.jpg" alt="">
+                        <img src="img/gall7.jpg" alt="">
+                        <img src="img/gall8.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/serviceall.js"></script>
+    <script>
+
+        let des = document.querySelector('.des')
+        let don = document.querySelector('.don')
+        let com = document.querySelector('.com')
+
+        don.addEventListener('click', () => {
+            document.querySelector('.don-det').classList.remove('remove');
+            document.querySelector('.com-det').classList.add('remove');
+            document.querySelector('.des-det').classList.add('remove');
+            document.querySelector('.donh').classList.add('col')
+            document.querySelector('.desh').classList.remove('col')
+            document.querySelector('.comh').classList.remove('col')
+
+        })
+
+        des.addEventListener('click', () => {
+            document.querySelector('.des-det').classList.remove('remove');
+            document.querySelector('.com-det').classList.add('remove');
+            document.querySelector('.don-det').classList.add('remove');
+            document.querySelector('.donh').classList.remove('col')
+            document.querySelector('.desh').classList.add('col')
+            document.querySelector('.comh').classList.remove('col')
+
+        })
+        com.addEventListener('click', () => {
+            document.querySelector('.com-det').classList.remove('remove');
+            document.querySelector('.don-det').classList.add('remove');
+            document.querySelector('.des-det').classList.add('remove');
+            document.querySelector('.donh').classList.remove('col')
+            document.querySelector('.comh').classList.add('col')
+            document.querySelector('.desh').classList.remove('col')
+
+        })
+
+
+    </script>
+</body>
+
+</html>
